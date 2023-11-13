@@ -1,0 +1,29 @@
+Microsoft Windows [Version 10.0.22621.2428]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Acer\Desktop\github-task2>git init
+Initialized empty Git repository in C:/Users/Acer/Desktop/github-task2/.git/
+
+C:\Users\Acer\Desktop\github-task2>git add .
+
+C:\Users\Acer\Desktop\github-task2>git commit -m "first commit"
+[master (root-commit) b9282c8] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test2.txt
+
+C:\Users\Acer\Desktop\github-task2>git branch -M main
+
+C:\Users\Acer\Desktop\github-task2>git remote add origin https://github.com/Emilishere/github-task2.git
+
+C:\Users\Acer\Desktop\github-task2>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Emilishere/github-task2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Acer\Desktop\github-task2>
